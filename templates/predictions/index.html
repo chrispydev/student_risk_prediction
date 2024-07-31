@@ -20,7 +20,7 @@
         document.getElementById('loading').style.display = 'block';
         document.getElementById('result').innerHTML = '';
 
-        fetch('/api/predict/', {
+        fetch('/predict/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

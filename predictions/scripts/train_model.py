@@ -2,8 +2,8 @@ import os
 import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from data_preparation import load_and_prepare_data
-from generate_dummy_data import generate_dummy_data
+from .data_preparation import load_and_prepare_data
+from .generate_dummy_data import generate_dummy_data
 
 
 def train_and_save_model():
